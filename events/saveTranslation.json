@@ -1,0 +1,15 @@
+{
+  "version": "0",
+  "id": "8f549775-c547-255b-f2ee-84e60a4da31c",
+  "detail-type": "translation",
+  "source": "website",
+  "account": "088483494489",
+  "time": "2021-04-27T04:32:36Z",
+  "region": "us-west-2",
+  "resources": [],
+  "detail": {
+    "language": "en",
+    "translation": "This is my text",
+    "id": "12345"
+  }
+}
