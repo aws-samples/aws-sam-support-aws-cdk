@@ -1,17 +1,5 @@
-## My Project
+# Better together: AWS SAM and AWS CDK
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
-
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
+This repository contains a serverless application for translating text to multiple languages. 
+Full instructions for using this application are found in the blog [Better together: AWS SAM and AWS CDK](https://aws.amazon.com/blogs/compute/better-together-aws-sam-and-aws-cdk/)
 
