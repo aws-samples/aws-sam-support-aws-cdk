@@ -35,6 +35,7 @@ export class CdkDayStack extends cdk.Stack {
       handler: 'app.handler',
       code: Code.fromAsset('src/put-translation'),
       tracing: Tracing.ACTIVE,
+      timeout: cdk.Duration.seconds(10),
       environment: {
         'TRANSLATE_BUS': translateBus.eventBusName
       }
@@ -61,6 +62,7 @@ export class CdkDayStack extends cdk.Stack {
       handler: 'app.handler',
       code: Code.fromAsset('src/get-translation'),
       tracing: Tracing.ACTIVE,
+      timeout: cdk.Duration.seconds(10),
       environment: {
         'TRANSLATE_TABLE': translateTable.tableName
       }
@@ -76,6 +78,7 @@ export class CdkDayStack extends cdk.Stack {
       handler: 'app.handler',
       code: Code.fromAsset('src/save-translation'),
       tracing: Tracing.ACTIVE,
+      timeout: cdk.Duration.seconds(10),
       environment:{
         'TRANSLATE_TABLE': translateTable.tableName
       }
